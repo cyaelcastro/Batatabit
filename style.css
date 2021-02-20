@@ -94,7 +94,6 @@ header img{
     margin-left: 10px;
     background-image: url("./assets/icons/down-arrow.svg");
 }
-
 main {
     width: 100%;
     height: auto;
@@ -114,6 +113,17 @@ main {
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
+}
+
+.exchange-container__background-image{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("./assets/img/Bitcoin.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .exchange-container__text-container h2{
