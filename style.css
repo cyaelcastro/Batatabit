@@ -231,13 +231,23 @@ main {
     height: 30px;
     margin: 0 auto;
     margin-top: 15px;
+    margin-bottom: 50px;
     padding: 8px;
     background-color: var(--soft-orange);
     border-radius: 8px;
+
 }
 
 .exchange-container__table_date p{
     font-size: 1.2rem;
     line-height: 1.5rem;
     color: var(--warm-black);
+}
+
+.blue-title{
+    color: var(--secondary-blue);
+}
+
+.blue-background{
+    background-color: var(--soft-blue);
 }
