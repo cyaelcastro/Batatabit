@@ -141,3 +141,103 @@ main {
     line-height: 1.6rem;
     color: #757575;
 }
+
+.exchange-container__table{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.exchange-container__table-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+}
+
+.exchange-container__table-container{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.exchange-container__table-container table{
+    width: 100%;
+    height: 100%;
+}
+
+.exchange-container__table-container td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.exchange-container__table-container .table_top-left{
+    border-radius: 15px 0 0 0;
+}
+
+.exchange-container__table-container .table_top-right{
+    border-radius: 0 15px 0 0;
+}
+
+.exchange-container__table-container .table_bottom-left{
+    border-radius: 0 0 0 15px;
+}
+
+.exchange-container__table-container .table_bottom-right{
+    border-radius: 0 0 15px 0;
+}
+
+.exchange-container__table-container .table_right{
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.exchange-container__table-container .table_trending-down{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("./assets/icons/trending-down.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exchange-container__table-container .table_trending-up{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url("./assets/icons/trending-up.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.exchange-container__table_date{
+    width: 220px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 8px;
+    background-color: var(--soft-orange);
+    border-radius: 8px;
+}
+
+.exchange-container__table_date p{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: var(--warm-black);
+}
