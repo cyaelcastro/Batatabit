@@ -412,3 +412,47 @@ main {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
+
+.price-section-card-container__card-title{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding-top: 6px;
+    background-color: var(--bitcoin-orange);
+    border-radius: 8px;
+    color: var(--just-white);
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+.price-section-card-container__card-content_title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    font-family: "DM sans", sans-serif;
+    color: var(--black);
+}
+
+.price-section-card-container__card-content_price{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    color: var(--black);
+    text-align: center;
+}
+
+.price-section-card-container__card-content_price span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+    width: 10px;
+}
+
+.price-section-card-container__card-content_saving{
+    font-size: 1.2rem;
+    color: #757575;
+}
