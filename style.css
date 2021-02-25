@@ -399,9 +399,19 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
+.price-section-card-container{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 .price-section-card-container__card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -411,6 +421,12 @@ main {
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+    
+}
+
+#center-card{
+    margin-left: 20px ;
+    margin-right: 20px;
 }
 
 .price-section-card-container__card-title{
